@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+  <title>E2EE</title>
+</head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="./css/global.css">
+<link rel="stylesheet" href="./css/home.css">
+
+<body>
+  <div id="navbar">
+  </div>
+  <h1 id="title">End-to-end Encryption</h1>
+
+  <div class="example-row">
+    <div class="box">
+      <div class="box-header">
+        <label>Client A</label>
+      </div>
+      <img src="src/assets/client.png" alt="Server" class="box-image">
+    </div>
+
+    <div class="box">
+      <div class="box-header">
+        <label>Server</label>
+      </div>
+      <img src="src/assets/server.jpg" alt="Server">
+    </div>
+
+    <div class="box">
+      <div class="box-header">
+        <label>Client B</label>
+      </div>
+      <img src="src/assets/client.png" alt="Server">
+    </div>
+  </div>
+
+  <div class="message">
+    <img src="src/assets/message.png" alt="Message">
+  </div>
+
+  <div class="container">
+    <textarea placeholder="Type a message here..." id="message-input">
+
+    </textarea>
+    <button id="send-button">Send</button>
+  </div>
+
+  <script src="./src/main.ts"></script>
+</body>
+
+</html>
